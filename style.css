@@ -1,0 +1,125 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ .contact-info {
+     background-color: #f3f3f3;;
+     height: 33px;
+     width: 100%;
+     display: flex;
+ }
+
+ .address {
+     display: flex;
+ }
+
+ .address p, .phone p, .social-icons p {
+     margin: 10px;
+ }
+ .title{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    color: white;
+    font-size: 44px;
+ }
+
+ .phone {
+     margin-left: 48%;
+     text-align: center;
+     margin-bottom: 10px;
+     display: flex;
+ } 
+
+ .header {
+     display: flex;
+     height: 50px;
+
+
+
+ }
+
+ .logo {
+     display: flex;
+     margin: 5px;
+     align-items: center;
+ }
+
+ .logo img {
+     width: 50px;
+     height: 50px;
+     margin-left:10px ;
+     margin-right: 10px;
+ }
+
+ .menu {
+     margin-left: 46%;
+ }
+
+ .menu ul {
+     display: flex;
+
+     list-style-type: none;
+     padding-left: 0;
+ }
+
+ .menu ul li a{
+     margin: 10px;
+     text-decoration: none;
+     color: #333;
+
+ }
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 18px;
+    margin-top: -10px;
+    text-align: center;
+    margin-left: 10px;
+}
+ .section-title {
+     margin-top: 30%;
+     font-size: 20px;
+ }
+
+ .content {
+     display: flex;
+ }
+
+ .section {
+     width: 40%;
+     background-color: rgb(109, 109, 228);
+     color: white;
+     padding: 30px;
+
+
+ }
+
+ .section-stats {
+     display: flex;
+     margin: 20px;
+ }
+
+ .stat {
+     margin: 20px;
+     border-left: 1px solid white;
+     padding: 10px; 
+ }
+ .st{
+    font-weight: 800;
+ }
+
+ .stat-label {
+     font-size: medium;
+ }
+
+ .doctor-image {
+     width: 60%;
+ }
+
+
+ .doctor-image img {
+     width: 100%;
+
+ }

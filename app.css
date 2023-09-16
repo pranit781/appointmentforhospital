@@ -1,0 +1,172 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+  }
+  
+  /* Style the button */
+  .appointment-button {
+        /* background-color: #007bff; */
+        color: #bbb1b1;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 43px;
+        background: none;
+        border: 2px solid black;
+  }
+
+  .appointment-buttonn {
+    background-color: #007bff;
+    color: #bbb1b1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 43px;  
+}
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 38px;
+    color: #333;
+    margin-top: 20px;
+  }
+  .input{
+    display: flex;
+    margin: 10px;
+  }
+  .input input{
+    margin: 10px;
+  }
+  /* Style the main paragraph */
+  .main-paragraph {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Style the contact info */
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .phone-icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  /* Style the phone details */
+  .phone-details p {
+    font-size: 16px;
+  }
+  
+  /* Style the form inputs */
+  form{
+    background-color: rgb(240 241 243);
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgba(231, 203, 203, 0.1) 0px 2px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    /* display: inline-block; */
+    border: none;   
+    align-items: center;
+    display: inline-grid; 
+
+}
+  form input[type="text"],
+  form input[type="tel"],
+  form input[type="date"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the form button */
+  form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Add spacing for form elements */
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  /* Add some responsiveness for smaller screens */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .appointment-button {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .main-paragraph {
+      font-size: 14px;
+    }
+  
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="date"],
+    form textarea {
+      font-size: 14px;
+    }
+  
+    form button[type="submit"] {
+      font-size: 14px;
+    }
+  }
+
+   .card {
+    background-color: rgb(240 241 243);
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgba(231, 203, 203, 0.1) 0px 2px 4px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 90%;
+    display: inline-block;
+    border: none;
+    text-align: center; 
+    }
+  
